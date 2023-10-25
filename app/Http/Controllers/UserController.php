@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\DB;
 class UserController extends Controller
 {
     //
-    public function getUsers(){
+    public function index(){
         return response()->json([
             'success' => true,
             'message' => 'Listado de usuarios',
